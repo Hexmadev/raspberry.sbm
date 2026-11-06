@@ -1,7 +1,7 @@
 sudo apt update
 sudo apt install -y ca-certificates
 
-sudo install -m 0644 /home/admin/ca.crt /usr/local/share/ca-certificates/local-network-ca.crt
+sudo install -m 0644 ~/home/admin/ca.crt /usr/local/share/ca-certificates/local-network-ca.crt
 sudo update-ca-certificates
 sudo apt install -y libnss3-tools
 mkdir -p ~/.pki/nssdb
