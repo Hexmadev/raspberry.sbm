@@ -1,0 +1,10 @@
+*.exe binary
+*.msi binary
+*.dll binary
+*.apk binary
+*.xlsx binary
+*.docx binary
+*.bin binary
+*.zip binary
+*.rar binary
+*.7z binary
